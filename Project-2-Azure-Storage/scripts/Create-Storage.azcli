@@ -1,0 +1,6 @@
+az storage account create \
+  --name "storagetest19" \
+  --resource-group "AZ-104-M7-LG5AMUOSRQ" \
+  --location "eastus" \
+  --sku "Standard_RAGRS" \
+  --allow-blob-public-access false
